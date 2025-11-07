@@ -93,7 +93,7 @@ function App() {
         ) : (
           // Redirect unauthenticated users back to login
           <Route path="*" element={<Navigate to="/" />} />
-        )}
+        )};
         {/* <Route path="/studentinfo" element={<StudentInfo />} />  */}
       
         {/* <Route
