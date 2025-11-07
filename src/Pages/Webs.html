@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Foods</title>
+    <link rel="stylesheet" href="../Pages/Webs.css">
+</head>
+<body>
+   <div class="Header">
+  <div class="logo">
+    <h3>Online Food</h3>
+    <p>Restaurant</p>
+  </div>
+
+  <nav class="butt">
+    <a href="#">HOME</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">SHOP</button>
+      <div class="dropdown-content">
+        <a href="#">Beverages</a>
+        <a href="#">Foods</a>
+        <a href="#">Snacks</a>
+      </div>
+    </div>
+
+    <a href="#">ABOUT-US</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">BLOG</button>
+      <div class="dropdown-content">
+        <a href="#">Food health</a>
+        <a href="#">Local preparations</a>
+        <a href="#">Navigation</a>
+      </div>
+    </div>
+
+    <a href="#">CONTACT-US</a>
+  </nav>
+
+  <div class="cta">
+    <a class="book" href="#">BOOK A TABLE</a>
+  </div>
+</div>
+
+    <section class="Wel">
+        <div class="first"><h3>Welcome To</h3>
+        <h1>Ping Foods</h1>
+        <p>_The Best Place To Be_</p>
+        <a href="a" class="menue">View Menue</a>
+        </div>
+    </section>
+    <div class="sect">
+        <div class="s1 b"><h4>Cool Atmosphere</h4><p>Step into a relaxed, vibrant setting where great food meets an inviting atmosphere. whether you're here to unwind or catch up with lived ones, the cool atmosphere will make your experience truly enjoyable.</p></div>
+        <div class="s1 c"><h4>Best Food Quality</h4><p>Indulge in an unforgettable culinary experience with our carefully curated menue, crafted from only the freshest, highest-quality ingredients.</p></div>
+        <div class="s1 d"><h4>Low Costing Food</h4><p>Enjoy delicious meals that won't break the bank! Our menue is designed to offer flavorful, satisfying dishes at affordable prices.</p></div>
+    </div><br>
+    <div class="Sory">
+    <div class="story"><h2>Discover Our Story</h2>
+    <p>Our journey began in a small kitchen with a passion for bringing fresh, home-cooked meals to the table. What started as dream in 2008 has grown into a community driven restaraunt, where our customers are more than just diners-they're part of our extended family.<a style="color: red;" href="a">Read More</a></p><br><br>
+<div class="S1"><h3>73</h3><p><h3>Beverages</h3></p></div> 
+<div class="S1"><h3>100</h3><p><h3>Food Items</h3></p></div>  
+<div class="S1"><h3>60</h3><p><h3>Cooks</h3></p></div>
+</div>     
+   <div class="story"><img src="../../Pictures/BlueStacks/food.png" alt="food eat" style="width: 400px;"></img></div> 
+    </div><br><hr>
+    <marquee class="Mar" style="color: darkolivegreen; text-align: center;" behaviour="" direction="up">REGISTER NOW!!</marquee><br>
+    <footer>
+    <form class="F2" action="https://formsubmit.co/emmanuelndubuisi2010@gmail.com" method="post">
+    <label for="name">Name:</label></br>
+    <input type="text" id="name" name="name" placeholder="Enter name" required><br><br>
+
+    <label for="email">  Email:</label></br>
+    <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+
+    <label for="Message">Location:</label></br>
+    <textarea id="message" name="message" placeholder="Location" required></textarea><br><br>
+    <input id="In" type="submit" value="Register">
+</form><br>
+<div class="clr"></div>
+<p style="text-align: center;"><span id="year">2025</span> Ping Foods. All rights reserved. </p>
+</footer>
+<script>
+    
+  // Toggle dropdowns on click
+  document.querySelectorAll('.dropbtn').forEach(button => {
+    button.addEventListener('click', function () {
+      const dropdown = this.nextElementSibling;
+      
+      // Close other dropdowns
+      document.querySelectorAll('.dropdown-content').forEach(content => {
+        if (content !== dropdown) {
+          content.style.display = 'none';
+        }
+      });
+
+      // Toggle current dropdown
+      dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+
+  // Close dropdowns when clicking outside
+  window.addEventListener('click', function (e) {
+    if (!e.target.matches('.dropbtn')) {
+      document.querySelectorAll('.dropdown-content').forEach(content => {
+        content.style.display = 'none';
+      });
+    }
+  });
+
+</script>
+</body>
+
+</html>

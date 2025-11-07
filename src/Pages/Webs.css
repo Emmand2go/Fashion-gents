@@ -1,0 +1,56 @@
+/* formatted body margin and padding before my pic back showed well */
+*{background-color:none;margin: 0;padding: 0;}
+.Header{display: flex;justify-content: space-between;flex-wrap: nowrap;background-color: rgb(102, 83, 83);color: antiquewhite;}
+a{color: white;}
+/* .butt{padding: 20px;}
+.cta{padding: 20px;} */
+.cta{margin-right: 5px;}
+.Wel{text-align: center;padding: 70px 30px;background: url(../../Pictures/BlueStacks/pexels.jpg);position: relative;margin-bottom: 0;color: rgb(133, 129, 129)}
+.first p{font-size: 30px;font-family: monospace;}
+.first h3{font-size: 30px;font-family: times;}
+.first h1{font-size: 37px;font-family: georgia;}
+.first::before{
+    content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.butt{word-spacing: 5px;}
+a{text-decoration: none;}
+.sect{display: flex;justify-content: space-between;flex-wrap: nowrap;margin-right: 50px;margin-left: 50px;flex-grow: 30%;margin-bottom: 0;}
+.s1{border: solid 1px rgb(53, 48, 34);background-color: rgb(102, 83, 83);}
+/* .sect{display: flex;justify-content: space-between;flex-wrap: nowrap;} */
+.s1{box-sizing: border-box;flex: 0 0 32%;height: 100px;text-align: center;}
+.s1 b{ display: flex; align-items: center;}
+.sect .s1 h4{font-size: 16px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.menue{text-decoration: none;color:white;font-size: 15px;border: solid 2px rgb(85, 22, 22);background-color: rgb(73, 44, 9);position: relative;}
+.Sory{display: flex;flex-wrap: nowrap;justify-content: space-evenly;border: solid 1px white;margin-top: 0;}
+.S1{display:flex;justify-content: space-around;align-items: center;box-sizing: border-box;color: darkred;}
+.clr{clear: both;}
+
+nav.butt {
+  display: flex;
+  gap: 15px;
+  align-items: center;}
+.dropbtn{background-color: #04aa6d;color: white;padding: 16px;font-size: 16px;border: none;cursor: pointer;}
+.dropdown{position: relative;}
+.dropdown-content{display: none;position: absolute;background-color: #f9f9f9;color: black;min-width: 160px;
+    box-shadow:0px 8px 16px  rgba(0, 0, 0, 0.2);z-index: 1;}
+.dropdown-content a{color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover{background-color: #ddd;}
+/* .dropdown:hover .dropbtn{background-color: #3e8e41;} */
+/* .butt:hover .dropdown-content{display: block;} */
+
+.dropbt{background-color: #04aa6d;color: white;padding: 16px;font-size: 16px;border: none;cursor: pointer;}
+.dropdown{position: relative;}
+.dropdown-cont{display: none;background-color: #f9f9f9ea;color: black;width: 130px;
+    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);z-index: 1;}
+.dropdown-cont a{color: black;padding: 12px 16px;text-decoration: none;display: inline-block;position: absolute;}
+.dropdown-cont a:hover{background-color: #ddd;}
+/* .dropdown:hover .dropbtn{background-color: #3e8e41;} */
+/* .butt:hover .dropdown-cont{display: block;position:absolute;} */
+.butt:hover .dropdown-cont{display: block;position:absolute;}
+/* .F2{float: right;} */
+footer{background-color:rgba(102, 83, 83, 0.966)}
+.Sory{background-color: rgba(229, 241, 226, 0.801);}
+body{background-color:rgb(214, 200, 200);position: relative;}
+.F2{display: flex;justify-content: space-around;flex-wrap: wrap;}
+input,#message{background-color: rgba(229, 241, 226, 0.801);}

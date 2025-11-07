@@ -1,0 +1,13 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+.contact-methods .method {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.contact-methods .method h2 {
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.Hem{
+    background-image: url('../assets/FoodPix.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
