@@ -1,0 +1,53 @@
+/* Wrap your table in this class */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Enables horizontal scrolling on small screens */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  background-color: #fff;
+}
+
+/* Make sure the table takes full width */
+.table-container table {
+  width: 100%;
+  min-width: 600px; /* Prevents table from shrinking too much */
+  border-collapse: collapse;
+}
+
+/* Responsive font and padding adjustments */
+@media (max-width: 768px) {
+  .table-container table {
+    min-width: 500px;
+  }
+
+  .MuiTableCell-root {
+    padding: 6px 8px !important;
+    font-size: 0.85rem !important;
+  }
+
+  .MuiButton-root {
+    font-size: 0.7rem !important;
+    padding: 4px 6px !important;
+  }
+
+  .MuiStack-root {
+    flex-direction: column !important;
+    gap: 4px !important;
+  }
+}
+
+/* Even smaller screens */
+@media (max-width: 480px) {
+  .table-container table {
+    min-width: 400px;
+  }
+
+  .MuiTableCell-root {
+    font-size: 0.8rem !important;
+    padding: 4px 6px !important;
+  }
+
+  .MuiButton-root {
+    font-size: 0.65rem !important;
+    padding: 3px 5px !important;
+  }
+}

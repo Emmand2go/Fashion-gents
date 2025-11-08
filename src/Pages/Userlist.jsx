@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import '../Pages/User.css'
 import {
   Table,
   TableBody,
@@ -14,6 +15,7 @@ import {
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
 
 const Userslist = () => {
   const navigate = useNavigate();
@@ -95,7 +97,7 @@ fetchUsers()
         All Registered Users
       </Typography>
 
-      <TableContainer style={{minWidth:'10rem'}}>
+      <TableContainer className="table-container">
         <Table>
           <TableHead>
             <TableRow>

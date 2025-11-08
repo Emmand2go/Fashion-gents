@@ -55,7 +55,7 @@ const Home = () => {
             <a href="#">More</a>
           </div>
           <div className="product-card">
-            <img src="https://www.oriade.co/cdn/shop/files/A52AB286-A28D-4E5F-8D78-483C437007EC.png?v=1748248301&width=1445" alt="Product 2" />
+            <img src="https://www.oriade.co/cdn/shop/files/A52AB286-A28D-4E5F-8D78-483C437007EC.png?v=1748248301&width=1445" alt="Product 2" style={{maxWidth:'20rem'}}/>
             <h3>Native Wear</h3>
             <p>$129.99</p>
             <a href="#">Book Now</a>
