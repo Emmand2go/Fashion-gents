@@ -18,6 +18,7 @@
   background-color: #222;
   display: flex;
   gap: 2rem;
+  min-width: 10rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

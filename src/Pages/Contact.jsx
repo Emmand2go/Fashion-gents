@@ -20,6 +20,8 @@ const Contact = () => (
   justifyContent:'space-evenly',
   alignContent:'center',
   marginTop: '5rem',
+  minWidth:'10rem',
+  gap:'3rem'
   }}
 
 >
