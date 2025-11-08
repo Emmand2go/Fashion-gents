@@ -95,7 +95,7 @@ fetchUsers()
         All Registered Users
       </Typography>
 
-      <TableContainer>
+      <TableContainer style={{minWidth:'10rem'}}>
         <Table>
           <TableHead>
             <TableRow>
